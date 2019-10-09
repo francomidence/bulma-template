@@ -1,6 +1,6 @@
 <template>
   <div>
-    <login />
+    <!-- <login /> -->
     <!-- <div class="columns">
       <div class="column">
         <div class="card">
@@ -19,14 +19,18 @@
       <div class="card-conent">Card content</div>
       <footer class="card-footer">Card footer</footer>
     </div>-->
+    <NavBar />
+    <Main />
   </div>
 </template>
 
 <script>
-import Login from '@/components/Login.vue'
+import NavBar from '@/components/NavBar.vue'
+import Main from '@/components/Main.vue'
 export default {
   components: {
-    Login
+    NavBar,
+    Main
   }
 }
 </script>
